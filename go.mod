@@ -1,4 +1,4 @@
-module github.com/PacktPublishing/Domain-Driven-Design-with-GoLang
+module github.com/ibiscum/Domain-Driven-Design-with-GoLang
 
 go 1.19
 

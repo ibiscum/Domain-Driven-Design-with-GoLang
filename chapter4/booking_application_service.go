@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/PacktPublishing/Domain-Driven-Design-with-GoLang/chapter2"
+	"github.com/ibiscum/Domain-Driven-Design-with-GoLang/chapter2"
 )
 
 type accountKey = int

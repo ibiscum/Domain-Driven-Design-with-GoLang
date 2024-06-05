@@ -7,12 +7,12 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/PacktPublishing/Domain-Driven-Design-with-GoLang/chapter8"
-	"github.com/PacktPublishing/Domain-Driven-Design-with-GoLang/chapter8/mocks"
+	"github.com/ibiscum/Domain-Driven-Design-with-GoLang/chapter8"
+	"github.com/ibiscum/Domain-Driven-Design-with-GoLang/chapter8/mocks"
 )
 
 func Test_CookiePurchases(t *testing.T) {
-	t.Run(`Given a user tries to purchase a cookie and we have them in stock, 
+	t.Run(`Given a user tries to purchase a cookie and we have them in stock,
 		"when they tap their card, they get charged and then receive an email receipt a few moments later.`,
 		func(t *testing.T) {
 			var (
@@ -45,7 +45,7 @@ func Test_CookiePurchases(t *testing.T) {
 			}
 		})
 
-	t.Run(`Given a user tries to purchase a cookie and we don’t have any in stock, we return an error to the cashier 
+	t.Run(`Given a user tries to purchase a cookie and we don’t have any in stock, we return an error to the cashier
 			so they can apologize to the customer.`, func(t *testing.T) {
 		var (
 			ctrl = gomock.NewController(t)
@@ -74,7 +74,7 @@ func Test_CookiePurchases(t *testing.T) {
 		}
 	})
 
-	t.Run(`Given a user tries to purchase a cookie, we have them in stock, but their card gets declined, we return 
+	t.Run(`Given a user tries to purchase a cookie, we have them in stock, but their card gets declined, we return
 		an error to the cashier so that we can ban the customer from the store.`, func(t *testing.T) {
 		var (
 			ctrl = gomock.NewController(t)
@@ -107,7 +107,7 @@ func Test_CookiePurchases(t *testing.T) {
 			t.Fatalf("error was unexpected, got %v", err.Error())
 		}
 	})
-	t.Run(`Given a user purchases a cookie and we have them in stock, their card is charged successfully but we 
+	t.Run(`Given a user purchases a cookie and we have them in stock, their card is charged successfully but we
 		fail to send an email, we return a message to the cashier so they know can notify the customer that they will not
 		get an e-mail, but the transaction is still considered done.`, func(t *testing.T) {
 		var (

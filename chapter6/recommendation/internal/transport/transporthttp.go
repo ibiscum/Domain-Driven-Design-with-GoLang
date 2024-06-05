@@ -5,7 +5,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/PacktPublishing/Domain-Driven-Design-with-GoLang/chapter6/recommendation/internal/recommendation"
+	"github.com/ibiscum/Domain-Driven-Design-with-GoLang/chapter6/recommendation/internal/recommendation"
 )
 
 func NewMux(recHandler recommendation.Handler) *mux.Router {
