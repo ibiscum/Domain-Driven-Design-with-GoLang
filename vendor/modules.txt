@@ -13,8 +13,8 @@ github.com/go-bdd/gobdd
 # github.com/gofrs/uuid v4.0.0+incompatible
 ## explicit
 github.com/gofrs/uuid
-# github.com/gogo/protobuf v1.3.1
-## explicit
+# github.com/gogo/protobuf v1.3.2
+## explicit; go 1.15
 github.com/gogo/protobuf/io
 github.com/gogo/protobuf/proto
 # github.com/golang/mock v1.6.0
