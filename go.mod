@@ -6,7 +6,7 @@ require (
 	github.com/Rhymond/go-money v1.0.12
 	github.com/go-bdd/gobdd v1.1.3
 	github.com/golang/mock v1.6.0
-	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/mux v1.8.1
 	github.com/jackc/pgx/v4 v4.18.3
 )
 
