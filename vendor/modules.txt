@@ -1,4 +1,4 @@
-# github.com/Rhymond/go-money v1.0.7
+# github.com/Rhymond/go-money v1.0.12
 ## explicit; go 1.13
 github.com/Rhymond/go-money
 # github.com/cucumber/gherkin-go/v13 v13.0.0
