@@ -3,7 +3,7 @@ module github.com/ibiscum/Domain-Driven-Design-with-GoLang
 go 1.19
 
 require (
-	github.com/Rhymond/go-money v1.0.12
+	github.com/Rhymond/go-money v1.0.13
 	github.com/go-bdd/gobdd v1.1.3
 	github.com/golang/mock v1.6.0
 	github.com/gorilla/mux v1.8.1
